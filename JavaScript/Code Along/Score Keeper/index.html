@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Score Keeper</title>
+</head>
+<body>
+    <section class="container">
+        <img src="https://images.unsplash.com/photo-1609710228159-0fa9bd7c0827?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="Ping Pong Ball and Paddle">
+        <h2>Ping Pong Score Keeper</h2>
+        <section class="mainCounter">
+            <h1><span id="playerOne">0</span> to <span id="playerTwo">0</span></h1>
+            <p>Use the buttons below to keep score</p>
+            <label for="scoreLimitSelect">Playing to:</label>
+            <select name="limit" id="scoreLimitSelect">
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+            <div>
+                <button id="addPlayerOne">+1 Player One</button>
+                <button id="addPlayerTwo">+1 Player Two</button>
+                <button id="resetScore">Reset</button>
+            </div>
+        </section>
+    </section>
+
+<script src="app.js"></script>
+</body>
+</html>

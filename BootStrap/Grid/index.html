@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Grid</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-1 text-primary text-center">The Grid System</h1>
+        <div class="row">
+            <div class="col-6 bg-success">I am 6 units</div>
+            <div class="col-6 bg-warning">I am 6 units</div>
+        </div>
+        <div class="row">
+            <div class="col-4 bg-success">I am 4 units</div>
+            <div class="col-4 bg-warning">I am 4 units</div>
+            <div class="col-4 bg-success">I am 4 units</div>
+        </div>
+        <div class="row">
+            <div class="col bg-success">I am auto</div>
+            <div class="col bg-warning">I am auto</div>
+            <div class="col bg-success">I am 4 auto</div>
+        </div>
+        <h2 class="display-4">Responsive Grid</h2>
+        <div class="row">
+            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat.</div>
+            <div class="col-md-6 col-xl-3 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat.</div>
+            <div class="col-md-6 col-xl-3 bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat.</div>
+            <div class="col-md-6 col-xl-3 bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat.</div>
+        </div>
+        <h2 class="display-4">Grid Alignment</h2>
+        <div class="row align-items-center">
+            <div class="col-md-6 col-xl-3 bg-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat.</div>
+            <div class="col-md-6 col-xl-3 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus et saepe illo a fugit temporibus, aspernatur quidem fuga incidunt at nostrum debitis qui alias eum natus repudiandae! Expedita, veniam hic.
+            Fugiat vero nobis excepturi dolores aliquid maiores, rerum expedita repellat ratione libero sed rem mollitia dolore ab quidem dolor. Odit in earum consequuntur libero quasi ipsum deserunt culpa consectetur enim.</div>
+            <div class="col-md-6 col-xl-3 bg-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus dolores cupiditate repellat necessitatibus repudiandae officiis placeat architecto eligendi quam sed? Tenetur sed dolor culpa libero repellendus aperiam architecto doloremque reiciendis?</div>
+            <div class="col-md-6 col-xl-3 bg-warning align-self-end">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quo fugiat, minima, quidem aperiam facere autem amet beatae ipsum quasi enim, quaerat fuga sed doloribus ea. Illo, repellendus maxime. Placeat.</div>
+        </div>
+        <h2 class="display-4">Justify Content</h2>
+        <div class="row border align-items-center justify-content-center justify-content-lg-start justify-content-xl-between">
+            <div class="col-md-4 bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius fuga omnis, ea pariatur nostrum, quam necessitatibus suscipit impedit voluptatibus libero. Amet unde corrupti mollitia minima non, consectetur libero doloremque?.</div>
+            <div class="col-md-4 bg-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae eius fuga omnis, ea pariatur nostrum, quam necessitatibus suscipit impedit voluptatibus libero. Amet unde corrupti mollitia minima non, consectetur libero doloremque?.</div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <h2 class="display-3 text-center">Bootstrap Form Practice</h2>
+        <form action="#nowhere">
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Enter your Password">
+                </div>
+                <div class="form-group col-sm-12 col-md-7">
+                    <label for="address">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="311 Example Lane">
+                </div>
+                <div class="form-group col-sm-6 col-md-2">
+                    <label for="zipCode">Zip Code</label>
+                    <input type="text" class="form-control" id="zipCode" placeholder="12345">
+                </div>
+                <div class="form-group col-sm-6 col-md-3">
+                    <label for="stateSelect">State</label>
+                    <select class="form-control" name="stateSelect" id="stateSelect">
+                        <option value="none">-Select a State-</option>
+                        <option value="idaho">Idaho</option>
+                        <option value="texas">Texas</option>
+                        <option value="georgia">Georgia</option>
+                        <option value="iowa">Iowa</option>
+                    </select>
+                </div>
+                <div class="form-group col-6">
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="newsletterConfirmationAgree" name="newsletterConfirmation" value="agree" checked>
+                        <label for="newsletterConfirmationAgree" class="custom-control-label">I want to recieve newsletters.</label>
+                    </div>
+                </div>
+            </div>
+            <button type ="submit" class="btn btn-success">Register</button>
+        </form>
+    </div>
+    <div class="container">
+        <h2 class="display-2 text-center">Navbar Practice</h2>
+        <hr>
+        <h3 class="display-3 text-center">Please see Navbar practice <a href="../NavBar/index.html" target="_blank">HERE</a></h3>
+    </div>
+    <hr>
+    <div class="container d-flex flex-column align-items-center">
+        <h2 class="display-2">Bootstrap Icons <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-music-note-beamed" viewBox="0 0 16 16">
+            <path d="M6 13c0 1.105-1.12 2-2.5 2S1 14.105 1 13c0-1.104 1.12-2 2.5-2s2.5.896 2.5 2zm9-2c0 1.105-1.12 2-2.5 2s-2.5-.895-2.5-2 1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M14 11V2h1v9h-1zM6 3v10H5V3h1z"/>
+            <path d="M5 2.905a1 1 0 0 1 .9-.995l8-.8a1 1 0 0 1 1.1.995V3L5 4V2.905z"/>
+        </svg></h2>
+        <button class="btn-lg btn-danger rounded-pill">Delete <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+        </svg>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>

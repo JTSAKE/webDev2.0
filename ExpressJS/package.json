@@ -1,0 +1,15 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "my first app with expressJS",
+  "main": "index.js",
+  "keywords": [
+    "expressJS",
+    "coltSteele"
+  ],
+  "author": "JTSAKE",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

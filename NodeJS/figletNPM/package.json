@@ -1,0 +1,20 @@
+{
+  "name": "figletnpm",
+  "version": "1.0.0",
+  "description": "Make me the art",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "art",
+    "ascii",
+    "pretty"
+  ],
+  "author": "JTSAKE",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "figlet": "^1.5.2"
+  }
+}
