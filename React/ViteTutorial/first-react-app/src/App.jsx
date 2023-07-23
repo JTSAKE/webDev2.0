@@ -6,22 +6,21 @@ import ListPicker from './ListPicker';
 import DoubleDie from './DoubleDie';
 import ColorList from './ColorList';
 import SlotMachine from './SlotMachine';
+import ShoppingList from './ShoppingList';
+
+const data = [
+  {id:1, item: 'eggs', quantity: 12, completed: false},
+  {id:2, item: 'milk', quantity: 1, completed: true},
+  {id:3, item: 'chicken breasts', quantity: 4, completed: false},
+  {id:4, item: 'carrots', quantity: 6, completed: true},
+];
+
+
 
 function App() {
   return(
     <div>
-      {/* <Greeter person='Bill' from='Zev'/>
-      <Greeter  />
-      <Greeter person='Linda' from='Daniel'/>
-      <Die numSides={20}/>
-      <Die />
-      <Die numSides={10}/>
-      <ListPicker values={[1,2,3,6,7,8]}/>
-      <ListPicker values={['Apple', 'Orange', 'Potatoes']}/>
-      <DoubleDie/> */}
-      {/* <ColorList colors={['Red', 'Pink', 'Purple','Yellow']}/>
-      <ColorList colors={['Blue', 'teal', 'White','Black']}/> */}
-      <SlotMachine v1='1' v2='1' v3='1'/>
+      <ShoppingList items={data} />
     </div>
   );
 }
