@@ -9,6 +9,8 @@ import SlotMachine from './SlotMachine';
 import ShoppingList from './ShoppingList';
 import Clicker from './Clicker';
 import Form from './Form';
+import Counter from './Counter';
+import Toggler from './Toggler';
 
 const data = [
   {id:1, item: 'eggs', quantity: 12, completed: false},
@@ -17,13 +19,11 @@ const data = [
   {id:4, item: 'carrots', quantity: 6, completed: true},
 ];
 
-
-
 function App() {
   return(
     <div>
-      <Clicker message='What did you say!' btnText='Say this!'/>
-      <Clicker message='No body messages up the emporers groove!' btnText='No Touchy!'/>
+      {/* <Counter/> */}
+      <Toggler/>
     </div>
   );
 }
